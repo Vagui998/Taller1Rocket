@@ -1,0 +1,49 @@
+<resources>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="enGreetings">
+        <item>Hi there</item>
+        <item>Hello!</item>
+        <item>It\'s nice to meet you</item>
+    </string-array>
+    <string-array name="spGreetings">
+        <item>Cordial saludo</item>
+        <item>Bienvenido</item>
+        <item>Saludos del equipo Rocket</item>
+    </string-array>
+    <string-array name="frGreetings">
+        <item>Bonjour</item>
+        <item>Quoi de neuf?</item>
+        <item>Salut</item>
+    </string-array>
+    <string name="app_name">Taller 1 Rocket</string>
+    <string name="Title">Taller 1</string>
+    <string name="numberRange">1–1000</string>
+    <string name="gameBtnTxt">Guess Game</string>
+    <string name="randomGreetBtnTxt">Random Greet</string>
+    <string name="countriesBtnTxt">Countries</string>
+    <string name="msgIncorrectRange">Ingrese un numero entre 1 y 1000</string>
+    <string name="gameTitle">Guess a number</string>
+    <string name="numberHint">number...</string>
+    <string name="playBtnTxt">Play</string>
+    <string name="counterTxt">Counter:</string>
+    <string name="messageTxt">Message:</string>
+    <string name="GameTitleTxt">Guess a number between 0 and</string>
+    <string name="initCounterTxt">Counter: 0</string>
+    <string name="msgGameInvalidInput">Ingrese un numero valido</string>
+    <string name="msgGuessTooBig">es muy grande, intenta de nuevo.</string>
+    <string name="msgGuessTooSmall">es muy chiquito, intenta de nuevo.</string>
+    <string name="GameOverMsg">Felicidades adivinaste en</string>
+    <string name="endGameoverMsg">intento(s).</string>
+    <string name="greetingInitTxt">Saludos</string>
+    <string name="randomizeBtnTxt">Randomize</string>
+    <string name="countriesTitleTxt">Lista de Paises</string>
+    <string name="countryNameTitleTxt">Pais</string>
+    <string name="EngCountryNameTxt">English Name:</string>
+    <string name="capitalInitTxt">Capital:</string>
+    <string name="abbreviationInitTxt">Abbreviation:</string>
+    <string name="picDescriptionTxt">Picture of Country Flag</string>
+</resources>

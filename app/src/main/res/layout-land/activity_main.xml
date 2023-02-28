@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    tools:context=".MainActivity"
+>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Title"
+        android:textColor="#3687FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+    />
+
+    <Button
+        android:id="@+id/btnGuessGame"
+        android:layout_marginTop="5dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/gameBtnTxt"
+    />
+
+    <EditText
+        android:id="@+id/txtRange"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnGuessGame"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/numberRange"
+        android:importantForAutofill="no"
+        android:inputType="number"
+
+    />
+
+    <Button
+        android:id="@+id/btnRandomGreet"
+        android:layout_marginTop="15dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/randomGreetBtnTxt"
+    />
+
+    <Spinner
+        android:id="@+id/spinnerLanguages"
+        android:layout_marginTop="5dp"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnRandomGreet"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:entries="@array/languages"
+    />
+
+    <Button
+        android:id="@+id/btnCountries"
+        android:layout_marginTop="15dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerLanguages"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/countriesBtnTxt"
+    />
+
+</RelativeLayout>

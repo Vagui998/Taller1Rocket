@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp"
+    tools:context=".RandomGreetActivity"
+>
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/greetingInitTxt"
+        android:textColor="#3687FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+    />
+
+    <Button
+        android:id="@+id/btnRandomize"
+        android:layout_marginTop="60dp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greeting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/randomizeBtnTxt"
+    />
+
+</RelativeLayout>
